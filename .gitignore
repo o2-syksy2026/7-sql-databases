@@ -1,0 +1,11 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.devcontainer
+/bin
+
+# Ignore the test database
+/data/Chinook_Sqlite_TEST.sqlite
