@@ -208,6 +208,15 @@ classDiagram
     PreparedStatement --> ResultSet: executes
 ```
 
+## Submitting solutions
+
+Solutions to this exercise are not graded by any GitHub Actions workflow (YAML), and `git push` does not start any grading. Grading is done by the course system: submit your solution on the exercise page in the course system, where your code is compiled and the exercise's JUnit tests are run.
+
+Finally, push everything to your public GitHub repository and press the **Lähetä tarkistettavaksi** (submit for checking) button on the exercise page. The course system's bot then fetches your code from your repository and checks it with the same tests.
+
+💡 *You can submit your solution as many times as needed until the chapter deadline. Your best result is kept.*
+
+
 ## Part 1: creating a query and handling results *(basics, 20%)*
 
 In the first part of the exercise, you need to familiarize yourself with the [**JdbcDemoMain**](./src/main/java/databases/part01/JdbcDemoMain.java) main program class and make two small changes to it.
